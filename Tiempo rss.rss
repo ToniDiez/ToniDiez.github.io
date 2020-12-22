@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>
+			ElTiempo24
+		</title>
+		<link>
+			https://www.tiempo.es/
+		</link>
+		<description>
+			En esta web podremos ver el tiempo que hará sevilla
+		</description>
+		<language>
+			es-ES
+		</language>
+		<item>
+			<title>
+				El tiempo Sevilla
+			</title>
+			<link>
+				https://www.tiempo.es/sevilla-sevilla-es0se0093.html
+			</link>
+			<description>
+				Aquí tenemos el tiempo de Sevilla
+			</description>
+		</item>
+        
+	</channel>
+</rss>
