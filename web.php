@@ -1,7 +1,6 @@
-<!doctype html>
-<html lang="en">
-  
-  <head>
+<html>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,27 +12,10 @@
     <link href="web.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
-    <header>
-      <div class="fixed-top">
-<blockquote class="blockquote text-center">
-        <p class="mb-0"><u>Las abejas y sus aportaciones necesarias</u></p>
-        <img src="imagenes/abeja emoticono.png" class="rounded float-left" height=40px>
-        <img src="imagenes/abeja emoticono.png" class="rounded float-right" height=40px>
-      <tr>
-        
-        <ul class="text-center" id="pills-tab" role="tablist">
-          <img src= "imagenes/Logo de Abeja" class="rounded float-center" height=50px >
-        
-          <a  href="index.html">-<u> Abejas </u>-</a>
-
-         <a href="index2.html" >-<u> Su importancia </u>-</a>
-
-          <a  href="index3.html" >-<u> Productos </u>-</a>
-          <img src= "imagenes/Logo de Abeja" class="rounded float-center" height=50px >
-    </tr>
-  </blockquote>
-  </div>
-  </header>
+  <?php $abeja="index"; ?>   
+        <?php
+            include 'header.php'
+        ?>
   <p style="color: #ffdd90";>H</p>
   <p style="color: #ffdd90";>H</p>
   <p style="color: #ffdd90";>H</p>
@@ -94,13 +76,9 @@
           </div>
         
         </div> 
-         <footer>
-           <u>Para más información:</u><img src= "imagenes/Logo de Abeja" class="rounded float-right" height=150px >
-           <p><a href="Tiempo atom.atom"> Tiempo atom</a></p>
-          <p><a href="Tiempo rss.rss"> Tiempo rss</a></p>
-               <a  href="https://es.greenpeace.org/es/trabajamos-en/agricultura/abejas/"><h2><u> Greenpeace </u></h2></a>
-             
-              </footer>
+        <?php
+            include 'footer.php'
+        ?>
 
               
          
@@ -111,5 +89,4 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
    
   </body>
-  
-</html>
+    </html> 
